@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className="text-3xl font-bold bg-red-500 underline">
-          Hello world...?
+          Hello world...
         </h1>
         <h1 className={styles.title}>Welcome to our demo blog!</h1>
 
