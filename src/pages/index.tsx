@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '@/styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
@@ -14,12 +14,15 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <h1 className="text-3xl font-bold bg-red-500 underline">
+          Hello world...?
+        </h1>
         <h1 className={styles.title}>Welcome to our demo blog!</h1>
 
         <p>
           You can find more articles on the{' '}
           <Link href='/blog'>
-          <a>blog articles page</a>
+            <a>blog articles page</a>
           </Link>
         </p>
       </main>
