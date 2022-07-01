@@ -7,7 +7,7 @@ const footer = () => {
                 <div className='p-4 w-max'>
                     <Image src="/logo-horizontal.png" alt="Masjid-e-Tawheed Logo" width={250} height={100} />
                 </div>
-                <div className='absolute inset-x-0 bottom-0 py-2 text-white text-xs text-center'>
+                <div className='absolute inset-x-0 bottom-0 py-2 bg-gradient-to-b from-gray-500 to-black text-white text-xs text-center'>
                     <p>Copyright © 2022 Masjid-e-Tawheed. All rights reserved.</p>
                 </div>
             </footer>
